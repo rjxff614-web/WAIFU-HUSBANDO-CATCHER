@@ -1,6 +1,5 @@
 import logging
 import os
-from telegram.ext import Application
 from motor.motor_asyncio import AsyncIOMotorClient
 
 logging.basicConfig(
@@ -29,8 +28,6 @@ UPDATE_CHAT = Config.UPDATE_CHAT
 BOT_USERNAME = Config.BOT_USERNAME
 sudo_users = Config.sudo_users
 OWNER_ID = Config.OWNER_ID
-
-application = Application.builder().token(TOKEN).build()
 
 shivuu = None
 
