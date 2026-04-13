@@ -6,7 +6,7 @@ class Config(object):
     sudo_users = (0,)
     GROUP_ID = -1003982219835
     TOKEN = "8721566005:AAHvdIHLgElJRBgdr8WaVaG8UXnndUevZAE"
-    mongo_url = "mongodb+srv://Naruto_464:Naruto_464@cluster0.mqzena3.mongodb.net/?appName=Cluster0"
+    mongo_url = ""
     PHOTO_URL = ["https://telegra.ph/file/b925c3985f0f325e62e17.jpg", "https://telegra.ph/file/4211fb191383d895dab9d.jpg"]
     SUPPORT_CHAT = "NARUTO_MUC_SUPPORT_GC"
     UPDATE_CHAT = "logs_45626"
