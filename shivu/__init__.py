@@ -1,6 +1,5 @@
 import logging
 import os
-from pyrogram import Client
 from telegram.ext import Application
 from motor.motor_asyncio import AsyncIOMotorClient
 
@@ -32,7 +31,8 @@ sudo_users = Config.sudo_users
 OWNER_ID = Config.OWNER_ID
 
 application = Application.builder().token(TOKEN).build()
-shivuu = Client("Shivu", api_id, api_hash, bot_token=TOKEN)
+
+shivuu = None
 
 lol = AsyncIOMotorClient(mongo_url)
 db = lol["Character_catcher"]
