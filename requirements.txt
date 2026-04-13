@@ -2,8 +2,6 @@ motor
 aiohttp
 requests
 python-telegram-bot==20.6
-httpx==0.24.1
-httpcore==0.17.3
 pymongo 
 pyrate-limiter==3.1.0
 apscheduler==3.6.3
